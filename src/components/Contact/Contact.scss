@@ -1,0 +1,44 @@
+.contact{
+    background-color: rgb(194, 194, 194);
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .wrapper{
+        width: 70%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    span{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    input{
+        padding: 10px;
+        border: none;
+        background: rgb(250, 250, 250);
+        border-radius: 5px 0 0 5px;
+        color: white;
+    }
+    button{
+        padding: 10px;
+        color: white;
+        background: black;
+        border:none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+
+    }
+}
